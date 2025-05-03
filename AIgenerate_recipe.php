@@ -253,12 +253,12 @@ $recipe = isset($_GET['recipe']) ? htmlspecialchars($_GET['recipe']) : '';
                         [Your response here]
                         
                         If asked about non-Filipino food, politely decline and suggest a Filipino alternative."; 
-                        $api_key = 'AIzaSyDKpqjVwiztSZ8up3Sq8DziM1DA1ge3Bjg'; //This is the AI-API key 
+                        $api_key = 'SECRET'; //This is the AI-API key 
 
                         if (empty($api_key)) {
                             echo '<p class="error-message">API key is missing. Please configure the Chef-AI system.</p>';
                         } else {
-                            $url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' . $api_key;
+                            $url = 'SECRET . $api_key;
 
                             $data = [
                                 'contents' => [
